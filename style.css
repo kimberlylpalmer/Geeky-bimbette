@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    background-image: linear-gradient(to bottom right, #3f213e , #f9b7ec, #3f213e );
+    box-sizing: border-box;
+    color: white;
+    height: 90vh; 
+  }
+
+  a {
+    color: #3f213e;
+  }
+
+  .h2-container {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #3f213e;
+    text-shadow: 4px 4px 4px #7a3fa8;
+    /* box-shadow: 3px 3px 8px #000; */
+}
+
+.p-container {
+    display: flex;
+    justify-content: center;
+    align-text: left;
+    margin: 0 30px;
+    box-shadow: inset 8px 8px 8px #000, 
+                inset 1px 1px 8px #333;
+
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 0 15px;
+  }
+  
+  .card-container {
+    /* border: 1px solid black; */
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  .project-list {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+  }
+
+  .project-list li {
+    width: 300px;
+    font-size: 25px;
+    color: #3f213e;
+    border: 2px solid #3f213e;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px #000;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeffff;
+    transition: box-shadow 0.15s ease-in-out;
+  }
+
+  .project-list li:hover {
+    box-shadow: inset 5px 5px 8px #000, 
+                inset 1px 1px 8px #333;
+  }
